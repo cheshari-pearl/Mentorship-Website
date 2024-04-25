@@ -1,0 +1,21 @@
+body{
+    background-color: #F8C9DD;
+   margin-left: 30% ;
+   margin-right: 30%;
+   font-size: x-large;
+}
+
+#logo{
+   padding-left: 50px;
+}
+
+ #mentor-name{
+    text-align: center;
+ }
+
+ @media (min-width: 280px) and (max-width: 359px) {
+}
+@media (min-width: 360px) and (max-width: 374px) {
+}
+@media (min-width: 375px) and (max-width: 435px) {
+}

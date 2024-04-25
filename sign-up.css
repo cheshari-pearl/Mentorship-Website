@@ -1,0 +1,37 @@
+body{
+    background-color: #F8C9DD;
+}
+
+#signup-form{
+    padding-top: 10%;
+    padding-left: 30%;
+    font-size: larger;
+   
+}
+.input{
+    height: 60px; 
+    width: 55%;
+    border-radius: 30px;
+    border: solid 1px;
+    text-align: center;
+
+}
+#signup-button{
+    height: 40px;
+    width: 20%;
+    margin-left: 30%;
+    border-radius:30px;
+    margin-top:5% ;
+    background-color: #652D91;
+    color: white;
+    font-size:small;
+    border: none;
+
+}
+
+@media (min-width: 280px) and (max-width: 359px) {
+}
+@media (min-width: 360px) and (max-width: 374px) {
+}
+@media (min-width: 375px) and (max-width: 435px) {
+}

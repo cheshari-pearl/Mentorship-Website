@@ -1,0 +1,29 @@
+body {
+  background-color: #f8c9dd;
+
+  margin-left: 35%;
+  font-size: x-large;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 40%;
+  font-size: large;
+}
+
+#logo {
+  margin-top: 4%;
+  height: 200px;
+  width: 200px;
+  margin-left: 6%;
+  margin-top: 14%;
+}
+
+@media (min-width: 280px) and (max-width: 359px) {
+}
+@media (min-width: 360px) and (max-width: 374px) {
+}
+@media (min-width: 375px) and (max-width: 435px) {
+}

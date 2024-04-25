@@ -1,0 +1,40 @@
+body{
+    background-color: #F8C9DD;
+    margin-left: 35% ;
+    
+    font-size: x-large;
+}
+
+
+#navbar{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-left: 40%;
+    font-size: large;
+}
+ #mentor-image{
+    margin-top: 5%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 8%;
+ }
+
+ #logo{
+    margin-top: 5%;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+}
+
+@media (min-width: 280px) and (max-width: 359px) {
+    #navbar{
+        display:block;
+    }
+}
+@media (min-width: 360px) and (max-width: 374px) {
+}
+@media (min-width: 375px) and (max-width: 435px) {
+}

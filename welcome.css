@@ -1,0 +1,106 @@
+body{
+    background-color: #F8C9DD;
+   
+       margin-left: 30% ;
+       margin-right: 30%;
+       font-size: x-large;
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    margin-left: 20%;
+    font-size: large;
+    margin-top: 3%;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#logo{
+    height: 90px;
+    width: 90px;
+
+}
+#welcome-page{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+#footer{
+    margin-top: 15%;
+display:flex;
+flex-direction: row;
+gap: 100px;
+}
+
+@media (min-width: 280px) and (max-width: 359px) {
+   body{
+   font-size: smaller;
+   margin-left: -1%;
+   }
+    
+    #nav{
+        display:block;
+    
+    }
+    #navbar{
+        display:block;
+    }
+    #welcome-page{
+        display: block;
+    }
+    #notepad{
+        height:150px;
+        width: 150px;
+    }
+    #footer{
+        display: block;
+    }
+}
+@media (min-width: 360px) and (max-width: 374px) {
+    #nav{
+        display:block;
+    
+    }
+    body{
+        margin-left: -1%;
+        font-size: smaller;
+        
+        }
+    #navbar{
+        display:block;
+    }
+    #welcome-page{
+        display: block;
+    }
+    #footer{
+        display: block;
+    }
+}
+@media (min-width: 375px) and (max-width: 435px) {
+    #nav{
+        display:block;
+    
+    }
+    body{
+        margin-left: -0.25%;
+        font-size: smaller;
+        
+        }
+    #navbar{
+        display:block;
+    }
+    #welcome-page{
+        display: block;
+    }
+    #footer{
+        display: block;
+    }
+}

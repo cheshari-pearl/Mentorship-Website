@@ -1,0 +1,29 @@
+body{
+    background-color: #F8C9DD;
+    margin-left: 30% ;
+    margin-right: 30%;
+    font-size: x-large;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-left: 40%;
+    font-size: large;
+
+}
+
+@media (min-width: 280px) and (max-width: 359px) {
+    #navbar{
+        display:block;
+        gap:0;
+    }
+}
+@media (min-width: 360px) and (max-width: 374px) {
+    #navbar{
+        display:block;
+    }
+}
+@media (min-width: 375px) and (max-width: 435px) {
+}

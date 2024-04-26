@@ -24,28 +24,30 @@ body{
 #logo{
     height: 90px;
     width: 90px;
-
+    margin-left: -10%;
 }
 #welcome-page{
     margin-top: 15%;
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 150px;
 }
 
 #footer{
     margin-top: 15%;
 display:flex;
 flex-direction: row;
-gap: 100px;
+gap: 150px;
 }
 
 @media (min-width: 280px) and (max-width: 359px) {
    body{
    font-size: smaller;
-   margin-left: -1%;
+   
    }
-    
+    #logo{
+       margin-left: 8%;
+    }
     #nav{
         display:block;
     
@@ -57,8 +59,8 @@ gap: 100px;
         display: block;
     }
     #notepad{
-        height:150px;
-        width: 150px;
+        height:130px;
+        width: 130px;
     }
     #footer{
         display: block;
@@ -69,6 +71,9 @@ gap: 100px;
         display:block;
     
     }
+    #logo{
+        margin-left: 8%;
+     }
     body{
         margin-left: -1%;
         font-size: smaller;
@@ -80,6 +85,10 @@ gap: 100px;
     #welcome-page{
         display: block;
     }
+    #notepad{
+        height:130px;
+        width: 130px;
+    }
     #footer{
         display: block;
     }
@@ -89,8 +98,10 @@ gap: 100px;
         display:block;
     
     }
+    #logo{
+        margin-left: 8%;
+     }
     body{
-        margin-left: -0.25%;
         font-size: smaller;
         
         }
@@ -99,6 +110,10 @@ gap: 100px;
     }
     #welcome-page{
         display: block;
+    }
+    #notepad{
+        height:130px;
+        width: 130px;
     }
     #footer{
         display: block;

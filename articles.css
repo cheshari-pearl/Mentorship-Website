@@ -8,22 +8,37 @@ body{
 #navbar{
     display: flex;
     flex-direction: row;
-    gap:40px;
+    gap:30px;
     margin-left: 40%;
     font-size: large;
 
 }
 
 @media (min-width: 280px) and (max-width: 359px) {
+    body{
+        font-size: medium;
+    }
     #navbar{
         display:block;
-        gap:0;
+        flex-direction:column;
+       
     }
 }
 @media (min-width: 360px) and (max-width: 374px) {
+    body{
+        font-size: medium;
+    }
     #navbar{
         display:block;
+        flex-direction:column;
     }
 }
 @media (min-width: 375px) and (max-width: 435px) {
+    body{
+        font-size: medium;
+    }
+    #navbar{
+        display:block;
+        flex-direction:column;
+    }
 }

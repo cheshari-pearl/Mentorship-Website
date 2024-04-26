@@ -1,4 +1,4 @@
-body {
+  body {
   background-color: #f8c9dd;
 
   margin-left: 35%;
@@ -6,24 +6,101 @@ body {
 }
 
 #navbar {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  margin-left: 40%;
-  font-size: large;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 40%;
+    font-size: large;
+  }
+
+  #logo {
+    margin-top: 4%;
+    height: 200px;
+    width: 200px;
+    margin-left: 6%;
+    margin-top: 14%;
+  }
+  .checkbox{
+    height:16px;
+    width:16px;
+  }
+  #todo-input {
+    flex: 1;
+    padding: 8px;
+    border:none;
+    border-radius: 8px;
+    width: 350px;
+    height: 25px;
+    text-align: center;
 }
 
-#logo {
-  margin-top: 4%;
-  height: 200px;
-  width: 200px;
-  margin-left: 6%;
-  margin-top: 14%;
-}
 
-@media (min-width: 280px) and (max-width: 359px) {
+
+ @media (min-width: 280px) and (max-width: 359px) {
+    #navbar{
+        display:block;
+        gap: 1;
+    }
+    #todo-input {
+        
+        padding: 8px;
+        border:none;
+        border-radius: 8px;
+        width: 100px;
+        height: 20px;
+        text-align: center;
+    }
+    #logo {
+        margin-top: 4%;
+        height: 150px;
+        width: 150px;
+        margin-left: 4%;
+        margin-top: 14%;
+      }
 }
 @media (min-width: 360px) and (max-width: 374px) {
+    #navbar{
+        display:block;
+        gap:1;
+    }
+    #todo-input {
+        
+        padding: 8px;
+        border:none;
+        border-radius: 8px;
+        width: 100px;
+        height: 20px;
+        text-align: center;
+    }
+    #logo {
+        margin-top: 4%;
+        height: 150px;
+        width: 150px;
+        margin-left: 4%;
+        margin-top: 14%;
+      }
 }
+
 @media (min-width: 375px) and (max-width: 435px) {
+    #navbar{
+        display:block;
+        gap: 1;
+    }
+    #todo-input {
+    
+        padding: 8px;
+        border:none;
+        border-radius: 8px;
+        width: 100px;
+        height: 20px;
+        text-align: center;
+    }
+    #logo {
+        margin-top: 4%;
+        height: 150px;
+        width: 150px;
+        margin-left: 4%;
+        margin-top: 14%;
+      }
 }
+

@@ -3,10 +3,9 @@ body{
 }
 
 #signup-form{
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 30%;
-    font-size: larger;
-   
+    font-size: larger;  
 }
 .input{
     height: 60px; 
@@ -16,10 +15,17 @@ body{
     text-align: center;
 
 }
+
+#logo{
+    height:170px;
+    width:170px;
+    margin-left: 45%;
+    
+ }
 #signup-button{
     height: 40px;
     width: 20%;
-    margin-left: 30%;
+    margin-left: 25%;
     border-radius:30px;
     margin-top:5% ;
     background-color: #652D91;
@@ -28,10 +34,68 @@ body{
     border: none;
 
 }
+#signin-text{
+    text-align: center;
+}
 
 @media (min-width: 280px) and (max-width: 359px) {
+    .input{
+        height: 40px; 
+        width: 45%;
+        border-radius: 30px;
+        border: solid 1px;
+        text-align: center;
+        padding-left: 9%;
+    }  
+    #signup-form{
+        margin-top: 10%;
+        padding-left: 10%;
+        font-size: larger;  
+    }
+    #signup-button{
+        height:40px;
+        width: 30%;
+        border-radius: 30px;
+    }
 }
 @media (min-width: 360px) and (max-width: 374px) {
+    .input{
+        height: 40px; 
+        width: 45%;
+        border-radius: 30px;
+        border: solid 1px;
+        text-align: center;
+        padding-left: 9%;
+    } 
+    #signup-form{
+        margin-top: 10%;
+        padding-left: 10%;
+        font-size: larger;  
+    } 
+    #signup-button{
+        height:40px;
+        width: 30%;
+        border-radius: 30px;
+    }
+
 }
 @media (min-width: 375px) and (max-width: 435px) {
+    .input{
+        height: 40px; 
+        width: 45%;
+        border-radius: 30px;
+        border: solid 1px;
+        text-align: center;
+        padding-left: 9%;
+    }  
+    #signup-form{
+        margin-top: 10%;
+        padding-left: 10%;
+        font-size: larger;  
+    }
+    #signup-button{
+        height:40px;
+        width: 30%;
+        border-radius: 30px;
+    }
 }

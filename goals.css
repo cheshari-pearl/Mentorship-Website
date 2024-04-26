@@ -23,8 +23,36 @@ body{
 }
 
 @media (min-width: 280px) and (max-width: 359px) {
+    #navbar{
+        display:block;
+    }
+        #logo{
+            margin-top: 4%;
+            height: 150px;
+            width: 150px;
+            margin-left: 8%;
+        }
+    
 }
 @media (min-width: 360px) and (max-width: 374px) {
+    #navbar{
+        display:block;
+    }
+    #logo{
+        margin-top: 4%;
+        height: 150px;
+        width: 150px;
+        margin-left: 8%;
+    }
 }
 @media (min-width: 375px) and (max-width: 435px) {
+    #navbar{
+        display:block;
+    }
+    #logo{
+        margin-top: 4%;
+        height: 150px;
+        width: 150px;
+        margin-left: 8%;
+    }
 }

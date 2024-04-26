@@ -1,11 +1,4 @@
-body{
-    
-    /* margin-left: 30%;
-    margin-top: 2%;
-    border: solid 3px;
-    justify-content: center;
-    margin-right: 30%; */
-   
+body{   
         background-color: #F8C9DD;
        margin-left: 30% ;
        margin-right: 30%;
@@ -13,11 +6,7 @@ body{
        margin-top:6%;    
 }
 
-#signin-form{
-    /* padding-top: 280px;
-    padding-left: 30%; */
-   
-}
+
 #logo{
    height:200px;
    width:200px;
@@ -44,11 +33,95 @@ body{
     color: white;
     font-size:small;
     border: none;
-
 }
 #signup-text{
     margin-top: 3%;
     padding-left: 30px;
 }
 
+
+
+    @media (min-width: 280px) and (max-width: 359px) {
+        body{
+            margin-top: 4%;
+         font-size: large;
+        }
+         #logo{
+            margin-top: 5%;
+            margin-left: 9%;
+             height: 160px;
+             width:160px;
+         }
+         .input{
+            margin-top: 5%;
+            height: 30px; 
+            width: 130px;
+            border-radius: 15px;
+            border: solid 1px;
+            text-align: center;
+    
+        }
+        #login-button{
+            margin-top: 5%;
+            height: 35px;
+            width: 100px;
+            margin-left:22%;
+        }
+     }
+     
+     @media (min-width: 360px) and (max-width: 374px) {
+         body{
+            margin-top: 4%;
+             font-size:large;
+            }
+         #logo{
+            margin-top: 5%;
+          margin-left: 9%; 
+             height: 160px;
+             width:160px;
+         }
+         .input{
+            margin-top: 5%;
+            height: 30px; 
+            width: 145%;
+            border-radius: 30px;
+            border: solid 1px;
+            text-align: center;
+        }
+        #login-button{
+            margin-top: 5%;
+            height: 35px;
+            width: 145%;
+            margin-left:22%;
+        }
+     }
+     @media (min-width: 375px) and (max-width: 435px) {
+         body{
+            margin-top: 4%;
+             font-size: large;
+            }
+         #logo{
+            margin-top: 5%;
+            margin-left: 9%;
+             height: 160px;
+             width:160px;
+         }
+         .input{
+            margin-top: 5%;
+            height: 30px; 
+            width: 145%;
+            border-radius: 30px;
+            border: solid 1px;
+            text-align: center;
+    
+        }
+        #login-button{
+            margin-top: 5%;
+            height: 35px;
+            width: 100px;
+            margin-left:22%;
+        }
+     }
+ 
+ 
 

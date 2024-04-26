@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: row;
     gap:30px;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     font-size: large;
 
 }

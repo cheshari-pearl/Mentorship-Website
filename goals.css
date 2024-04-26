@@ -11,12 +11,12 @@ body{
     display: flex;
     flex-direction: row;
     gap:40px;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     font-size: large;
 }
 
 #logo{
-    margin-top: 4%;
+    margin-top:10%;
     height: 200px;
     width: 200px;
     margin-left: 10%;

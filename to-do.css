@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     font-size: large;
   }
 
@@ -37,9 +37,14 @@
 
 
  @media (min-width: 280px) and (max-width: 359px) {
-    #navbar{
+  body{
+    margin-left: 5%;
+    font-size: small;
+  } 
+  #navbar{
         display:block;
         gap: 1;
+
     }
     #todo-input {
         
@@ -51,17 +56,22 @@
         text-align: center;
     }
     #logo {
-        margin-top: 4%;
+        margin-top: 10%;
         height: 150px;
         width: 150px;
         margin-left: 4%;
-        margin-top: 14%;
+        
       }
 }
 @media (min-width: 360px) and (max-width: 374px) {
-    #navbar{
+  body{
+    margin-left: 5%;
+    font-size: small;
+  } 
+  #navbar{
         display:block;
         gap:1;
+      
     }
     #todo-input {
         
@@ -73,18 +83,24 @@
         text-align: center;
     }
     #logo {
-        margin-top: 4%;
+        margin-top:10%;
         height: 150px;
         width: 150px;
         margin-left: 4%;
-        margin-top: 14%;
+        
       }
 }
 
 @media (min-width: 375px) and (max-width: 435px) {
-    #navbar{
+  body{
+    margin-left: 5%;
+    font-size: small;
+  } 
+  #navbar{
+      
         display:block;
         gap: 1;
+        
     }
     #todo-input {
     
@@ -96,11 +112,11 @@
         text-align: center;
     }
     #logo {
-        margin-top: 4%;
+        margin-top: 10%;
         height: 150px;
         width: 150px;
-        margin-left: 4%;
-        margin-top: 14%;
+        margin-left: 5%;
+        
       }
 }
 

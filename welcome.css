@@ -10,15 +10,15 @@ body{
 #navbar{
     display: flex;
     flex-direction: row;
-    gap:50px;
-    margin-left: 20%;
+    gap:30px;
+    margin-left: 10%;
     font-size: large;
     margin-top: 3%;
 }
 #nav{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 2px;
 }
 
 #logo{
@@ -43,10 +43,11 @@ gap: 150px;
 @media (min-width: 280px) and (max-width: 359px) {
    body{
    font-size: smaller;
+   margin-left:2%;
    
    }
     #logo{
-       margin-left: 8%;
+       margin-left: 5%;
     }
     #nav{
         display:block;
@@ -56,6 +57,7 @@ gap: 150px;
         display:block;
     }
     #welcome-page{
+        margin-top: 5%;
         display: block;
     }
     #notepad{
@@ -72,10 +74,10 @@ gap: 150px;
     
     }
     #logo{
-        margin-left: 8%;
+        margin-left: 5%;
      }
     body{
-        margin-left: -1%;
+        margin-left:2%;
         font-size: smaller;
         
         }
@@ -83,6 +85,7 @@ gap: 150px;
         display:block;
     }
     #welcome-page{
+        margin-top: 5%;
         display: block;
     }
     #notepad{
@@ -103,12 +106,13 @@ gap: 150px;
      }
     body{
         font-size: smaller;
-        
+     margin-left:5%;
         }
     #navbar{
         display:block;
     }
     #welcome-page{
+        margin-top: 5%;
         display: block;
     }
     #notepad{

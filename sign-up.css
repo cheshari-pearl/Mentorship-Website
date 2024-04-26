@@ -22,6 +22,9 @@ body{
     margin-left: 45%;
     
  }
+ .s-button{
+    color:white;
+ }
 #signup-button{
     height: 40px;
     width: 20%;
@@ -35,7 +38,8 @@ body{
 
 }
 #signin-text{
-    text-align: center;
+    margin-top:3%;
+    margin-left: 48%;
 }
 
 @media (min-width: 280px) and (max-width: 359px) {

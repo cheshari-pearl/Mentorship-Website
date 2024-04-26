@@ -22,6 +22,9 @@ body{
         text-align: center;
 
 }
+.l-button{
+    color: white;
+}
 
 #login-button{
     height: 45px;
@@ -34,9 +37,13 @@ body{
     font-size:small;
     border: none;
 }
+
+    
+ 
 #signup-text{
     margin-top: 3%;
-    padding-left: 30px;
+    margin-left: 21%;
+    
 }
 
 

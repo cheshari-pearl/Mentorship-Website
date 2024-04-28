@@ -41,6 +41,7 @@ body {
   margin-left: 5%;
 }
 #welcome-page {
+  margin-top: 8%;
   margin-left: 10%;
   display: flex;
   flex-direction: row;
@@ -53,29 +54,41 @@ body {
 #socials {
   margin-top: 8%;
 }
-
+#foot{
+  margin-top: 3%;
+text-align:center;
+font-size: x-large;
+margin-left: -18%;
+}
 #footer {
-   margin-top: 2%;
+   margin-top: -9%;
   display: flex;
   flex-direction: row;
-  gap: 200px;
+  gap: 320px;
   align-items: center;
-  margin-left: 16%;
+  margin-left: 9%;
   font-size: 21px;
+}
+hr{
+  border-color: #652d91;
+  width:100%;
+  margin-left: -3%;
 }
 
 @media (min-width: 280px) and (max-width: 359px) {
   body {
-    font-size: smaller;
-    margin-left: 2%;
+    font-size: x-large;
+    margin-left: -2%;
   }
   #title {
-    display: block;
+   
+    margin-left:13%;
   }
   #logo {
-    margin-left: 5%;
+    margin-left: -2%;
   }
   #nav {
+   margin-left: 15%;
     display: block;
 
   }
@@ -90,25 +103,36 @@ body {
   #notepad {
     height: 130px;
     width: 130px;
+    margin-left: 5%;
   }
   #footer {
     display: block;
     gap: 0;
   }
+  #foot{
+    margin-left: 5%;
+    font-size: large;
+  }
+  hr{
+    margin-left: 3%;
+  }
+
 }
 @media (min-width: 360px) and (max-width: 374px) {
-  #nav {
-    display: block;
-  }
+ 
   #logo {
-    margin-left: 5%;
+    margin-left: -2%;
   }
   body {
-    margin-left: 2%;
-    font-size: smaller;
+    margin-left: -2%;
+    font-size: x-large;
   }
   #title {
-    display: block;
+    margin-left:13%;
+    /* display: block; */
+  }
+  #nav{
+    margin-left: 15%;
   }
   #navbar {
     margin-left: -2%;
@@ -119,6 +143,7 @@ body {
     display: block;
   }
   #notepad {
+    margin-left: 7%;
     height: 130px;
     width: 130px;
   }
@@ -126,21 +151,31 @@ body {
     display: block;
     gap: 0;
   }
+  #foot{
+    margin-left: 5%;
+    font-size: large;
+  }
+  hr{
+    margin-left: 3%;
+  }
+
 }
 @media (min-width: 375px) and (max-width: 435px) {
   #nav {
+    margin-left: 15%;
     display: block;
   }
   #logo {
-    margin-left: 8%;
+    margin-left: -2%;
   }
   body {
-    font-size: smaller;
-    margin-left: 5%;
+    font-size:x-large;
+    margin-left: -2%;
   }
   #title {
-    display: block;
-  }
+    
+    margin-left:13%;
+  } 
   #navbar {
     margin-left: -2%;
     display: block;
@@ -150,6 +185,7 @@ body {
     display: block;
   }
   #notepad {
+    margin-left: 7%;
     height: 130px;
     width: 130px;
   }
@@ -157,4 +193,12 @@ body {
     display: block;
     gap: 0;
   }
+  #foot{
+    margin-left: 5%;
+    font-size: large;
+  }
+  hr{
+    margin-left: 3%;
+  }
+
 }

@@ -18,7 +18,7 @@ body{
 
 }
 .label{
-    margin-left: -3%;
+    margin-left: -4%;
 }
 #logo{
     height:170px;
@@ -56,6 +56,7 @@ body{
         border: solid 1px;
         text-align: center;
         padding-left: 9%;
+        
     }  
     #signup-form{
         margin-top: 10%;
@@ -67,14 +68,24 @@ body{
         width: 30%;
         border-radius: 30px;
     }
+    body{
+        font-size: large;
+    }
     .label{
-        margin-left: -3%;
+        margin-left: -4%;
+    }
+    .s-button{
+        margin-left: 37%;
     }
     #logo{
         height:80px;
         width:80px;
-        margin-left: 25%; 
+        margin-left: 35%; 
      }
+     #signin-text{
+        margin-left: 26%;
+    
+}
 }
 @media (min-width: 360px) and (max-width: 374px) {
     .input{
@@ -83,8 +94,10 @@ body{
         border-radius: 30px;
         border: solid 1px;
         text-align: center;
-        padding-left: 9%;
     } 
+    body{
+        font-size: large;
+    }
     #signup-form{
         margin-top: 10%;
         padding-left: 10%;
@@ -95,14 +108,20 @@ body{
         width: 30%;
         border-radius: 30px;
     }
+    .s-button{
+        margin-left: 37%;
+    }
     .label{
-        margin-left: -3%;
+        margin-left: -4%;
     }
     #logo{
         height:80px;
         width:80px;
-        margin-left: 25%; 
+        margin-left: 35%; 
      }
+     #signin-text{
+        margin-left: 26%;
+    }
 
 }
 @media (min-width: 375px) and (max-width: 435px) {
@@ -112,8 +131,11 @@ body{
         border-radius: 30px;
         border: solid 1px;
         text-align: center;
-        padding-left: 9%;
+      
     }  
+    body{
+        font-size: large;
+    }
     #signup-form{
         margin-top: 10%;
         padding-left: 10%;
@@ -124,14 +146,19 @@ body{
         width: 30%;
         border-radius: 30px;
     }
+    .s-button{
+        margin-left: 37%;
+    }
     .label{
         margin-left: -3%;
     }
     #logo{
         height:80px;
         width:80px;
-        margin-left: 25%; 
+        margin-left: 35%; 
      }
-
+     #signin-text{
+        margin-left: 26%;
+    }
 
 }

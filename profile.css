@@ -6,7 +6,7 @@ body {
 }
 
 #title {
-  margin-top: 3%;
+  margin-top: 1%;
   margin-left: 22%;
 }
 #navbar {
@@ -32,11 +32,18 @@ body {
   margin-top: 3%;
 }
 #mentor-image {
-  margin-top: 2%;
+  margin-top: 1%;
   border-radius: 50%;
   height: 270px;
   width: 270px;
   margin-left: 22%;
+}
+
+#address {
+  margin-top: 4%;
+}
+#socials {
+  margin-top: 8%;
 }
 
 #logo {
@@ -45,50 +52,138 @@ body {
   width: 40px;
   margin-left: 28%;
 }
+#foot{
+  margin-top: 3%;
+  text-align:center;
+  font-size: x-large;
+  margin-left: -40%;
+  }
+  hr{
+    border-color: #652d91;
+    width:100%;
+    margin-left: -15%;
+    margin-top: 10%;
+  }
+  
 
 @media (min-width: 280px) and (max-width: 359px) {
   body {
     margin-left: -3%;
-    font-size: large;
+    font-size: x-large;
   }
   #navbar {
-    display: block;
+    flex-direction: column;
   }
+  #nav{
+    flex-direction: column;
+}
+#title {
+  margin-left: 10%;
+}
+#logo {
+  margin-left: 6%;
+}
   .mentor-img {
     height: 200px;
     width: 150px;
-
-    display: block;
+    margin-left: -5%;
   }
+  #footer {
+    display: block;
+    margin-left: 5%;
+  }
+  #mentor-details{
+    margin-top: 2%;
+  }
+  #foot{
+    margin-left:2%;
+    font-size: large;
+  }
+  hr{
+    width:98%;
+    margin-left: 1%;
+  }
+
 }
 @media (min-width: 360px) and (max-width: 374px) {
   body {
     margin-left: -3%;
-    font-size: large;
+    font-size: x-large;
   }
   #navbar {
-    display: block;
+    flex-direction: column;
   }
+  #mentor-details{
+    margin-top: 2%;
+  }
+  #nav{
+    flex-direction: column;
+}
+#logo {
+  margin-left: 6%;
+}
+#title {
+  margin-left: 10%;
+}
   .mentor-img {
     height: 200px;
     width: 150px;
-   
-    display: block;
+    margin-left: -5%;
   }
+  #footer {
+    display: block;
+    margin-left: 5%;
+  }
+  #foot{
+    margin-left:2%;
+    font-size: large;
+  }
+  hr{
+    width:98%;
+    margin-left: 1%;
+  }
+
 }
 @media (min-width: 375px) and (max-width: 435px) {
   body {
     margin-left: -3%;
-    font-size: large;
+    font-size: x-large;
   }
 
   #navbar {
-    display: block;
+    /* display: block; */
+    flex-direction: column;
   }
+  #logo {
+    margin-left: 6%;
+  }
+  #mentor-details{
+    margin-top: 2%;
+  }
+  #title {
+    margin-left: 10%;
+  }
+  #nav{
+    flex-direction: column;
 }
 .mentor-img {
+  
   height: 200px;
   width: 150px;
-
+  margin-left: -5%;
+}
+#footer {
   display: block;
+  margin-left: 5%;
+}
+#foot{
+  
+  font-size: large;
+  margin-left:2%;
+}
+hr{
+  width:98%;
+  margin-left: 1%;
+}
+
 }

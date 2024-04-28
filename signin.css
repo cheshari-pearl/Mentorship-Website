@@ -27,6 +27,9 @@ body{
         text-align: center;
 
 }
+.label{
+    margin-left: -4%;
+}
 .l-button{
     height: 45px;
     width: 200px;
@@ -42,7 +45,7 @@ body{
 #signup-text{
     margin-top: 3%;
     margin-left: 21%;
-    
+
 }
 
 
@@ -50,83 +53,117 @@ body{
     @media (min-width: 280px) and (max-width: 359px) {
         body{
             margin-top: 4%;
-         font-size: large;
+         font-size: x-large;
+         margin-left: 2%;
         }
          #logo{
             margin-top: 5%;
-            margin-left: 9%;
-             height: 160px;
-             width:160px;
+            margin-left: 50%;
+             height: 80px;
+             width:80px;
          }
          .input{
-            margin-top: 5%;
+            margin-top: 13%;
             height: 30px; 
-            width: 130px;
+            width: 160px;
             border-radius: 15px;
             border: solid 1px;
             text-align: center;
     
         }
+        .l-button{
+            height: 45px;
+            width: 80px;
+            margin-left: 50%;
+        }
+        .label{
+            margin-left: 4%;
+        }
+
         #login-button{
             margin-top: 5%;
-            height: 35px;
-            width: 100px;
+            height: 43px;
+            width: 150%;
             margin-left:22%;
+        }
+        #signup-text{
+            margin-top: 3%;
+            margin-left: 2%;
+            font-size: large;
         }
      }
      
      @media (min-width: 360px) and (max-width: 374px) {
          body{
             margin-top: 4%;
-             font-size:large;
+             font-size:x-large;
+             margin-left: 2%;
             }
          #logo{
             margin-top: 5%;
-          margin-left: 9%; 
-             height: 160px;
-             width:160px;
+          margin-left: 50%; 
+             height: 80px;
+             width:80px;
          }
          .input{
-            margin-top: 5%;
-            height: 30px; 
-            width: 145%;
+            margin-top: 13%;
+            height: 43px; 
+            width: 160px;
             border-radius: 30px;
             border: solid 1px;
             text-align: center;
         }
-        #login-button{
-            margin-top: 5%;
-            height: 35px;
-            width: 145%;
-            margin-left:22%;
+        .label{
+            margin-left: 4%;
         }
+        .l-button{
+            height: 45px;
+            width: 80px;
+            margin-left: 50%;
+        }
+        #signup-text{
+            margin-top: 3%;
+            margin-left: 2%;
+            font-size: large;
+        }
+      
      }
      @media (min-width: 375px) and (max-width: 435px) {
          body{
-            margin-top: 4%;
-             font-size: large;
+            margin-top: 13%;
+             font-size: x-large;
+             margin-left: 2%;
             }
          #logo{
             margin-top: 5%;
-            margin-left: 9%;
-             height: 160px;
-             width:160px;
+            margin-left: 50%;
+             height: 80px;
+             width:80px;
          }
          .input{
             margin-top: 5%;
-            height: 30px; 
-            width: 145%;
+            height: 43px; 
+            width: 160px;
             border-radius: 30px;
             border: solid 1px;
             text-align: center;
     
         }
-        #login-button{
-            margin-top: 5%;
-            height: 35px;
-            width: 100px;
-            margin-left:22%;
+        .label{
+            margin-left: 4%;
         }
+        .l-button{
+            height: 45px;
+            width: 80px;
+            margin-left: 50%;
+        }
+        #signup-text{
+            margin-top: 3%;
+            margin-left: 2%;
+            font-size: large;
+         
+        }
+      
      }
  
  

@@ -1,111 +1,223 @@
-body{
-    background-color: #F8C9DD;
-    margin-left: 30% ;
-    margin-right: 30%;
-    font-size: xx-large;
+body {
+  background-color: #f8c9dd;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: xx-large;
 }
 .link {
-    text-decoration: none;
-    color: #652D91;
-  }
-  #navbar {
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    margin-left: 7%;
-    font-size: large;
-  }
-  #nav {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-  }
+  text-decoration: none;
+  color: #652d91;
+}
+#navbar {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 7%;
+  font-size: large;
+}
+#nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
 
-.input{
-    margin-top: 3%;
-    height: 60px; 
-    width: 500px;
-    border-radius: 30px;
-    border: solid 1px;
-    text-align: center;
+.input {
+  margin-top: 3%;
+  height: 60px;
+  width: 500px;
+  border-radius: 30px;
+  border: solid 1px;
+  text-align: center;
 }
-.achieve-button{
-    height: 60px; 
-    width: 100px;
-    border-radius: 30px;
-    background-color: #652D91;
-    color: white;
-    border: none;
+.achieve-button {
+  height: 60px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: #652d91;
+  color: white;
+  border: none;
+}
+#logo {
+  margin-top: 3%;
+  height: 40px;
+  width: 40px;
+  margin-left: 25%;
+}
+#achieve-text {
+  margin-left: 20%;
+}
+#footer {
+  margin-top: -1%;
+  display: flex;
+  flex-direction: row;
+  gap: 280px;
+  align-items: center;
+  margin-left: -33%;
+  font-size: 21px;
+}
+#foot {
+  margin-top: 2%;
+  font-size: x-large;
+  text-align: center;
+  margin-left: -30%;
+}
+#address {
+  margin-top: 4%;
+}
+#socials {
+  margin-top: 8%;
+}
 
-}
-#logo{
-    margin-top: 8%;
-    height: 40px;
-    width: 40px;
-    margin-left: 25%;
-}
-#achieve-text{
-    margin-left: 20%;
-}
+  hr{
+    margin-top: 22%;
+    border-color: #652d91;
+    width:100%;
+    margin-left: -8%;
+  }
+  
 
 @media (min-width: 280px) and (max-width: 359px) {
-    body{
-        font-size: medium;
-        margin-left: 5%;
+  body {
+    font-size: x-large;
+    margin-left: 2%;
+  }
+  #nav{
+    flex-direction: column;
+}
+.achieve-button{
+   
+    height: 40px;
+    width: 60px;   
     }
-    #navbar{
-        display:block;
-        flex-direction:column; 
-    }
-    .input{
-        margin-top: 5%;
-        height: 50px; 
-        width: 300px;
-        border: solid 1px;
-        text-align: center;
-        margin-left: 10%;
-    }
+  #navbar {
+    display: block;
+    flex-direction: column;
+  }
+  .input {
+    margin-top: 3%;
+    height: 50px;
+    width: 250px;
+    /* border: solid 1px;
+    text-align: center;
+    margin-left: 5%; */
+  }
+  #footer {
+    display: block;
+    margin-left: 3%;
+  }
+  #foot {
+    font-size: large;
+    margin-left:29%;
+  }
+  hr{
+    margin-left: 20%;
+  }
+  #achieve{
+    flex-direction: row;
+  }
+  #achieve-text {
+    margin-left: -3%;
+  }
+  #logo {
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 40px;
+    width: 40px;
+  }
 }
 @media (min-width: 360px) and (max-width: 374px) {
-    body{
-        font-size: medium;
-        margin-left: -5%;
+  body {
+    font-size: x-large;
+    margin-left: 2%;
+  }
+  #nav{
+    flex-direction: column;
+    margin-left: 8%;
+}
+  #navbar {
+    flex-direction: column;
+  }
+  .input {
+    margin-top: 3%;
+    height: 50px;
+    width: 250px;
+    border: solid 1px;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .achieve-button{
+    
+    height: 40px;
+    width: 60px;   
     }
-    #navbar{
-        display:block;
-
-    }
-    .input{
-        margin-top: 5%;
-        height: 50px; 
-        width: 300px;
-        border: solid 1px;
-        text-align: center;
-        margin-left: 10%;
-    }
+  #footer {
+    display: block;
+    margin-left: 3%;
+  }
+  #achieve-text {
+    margin-left: -3%;
+  }
+  #foot {
+    margin-left:29%;
+    font-size: large;
+  }
+  hr{
+    margin-left: 20%;
+  }
+  #achieve{
+    flex-direction: row;
+  }
+  #logo {
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 40px;
+    width: 40px;
+  }
 }
 @media (min-width: 375px) and (max-width: 435px) {
-    body{
-        font-size: medium;
-        margin-left: 5%;
-    }
-    #navbar{
-        display:block;
-    }
-    .input{
-        margin-top: 5%;
-        height: 50px; 
-        width: 300px;
-        border: solid 1px;
-        text-align: center;
-        margin-left: 10%;
-
-    }
-    .achieve-button{
-        margin-top:1%;
-        height: 45px; 
-        width: 100px;
-        
+  body {
+    font-size: x-large;
+    margin-left: 2%;
+  }
+  #navbar {
+    flex-direction: column;
+  }
+  #nav{
+    flex-direction: column;
 }
+  .input {
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 50px;
+    width: 200px;
+  }
+  .achieve-button {
+     height: 45px;
+    width: 62px; 
+ 
+  }
+  #footer {
+    display: block;
+    margin-left: 3%;
+  }
+  #achieve-text {
+    margin-left: 5%;
+  }
+  #foot {
+    font-size: large;
+    margin-left: 29%;
+  }
+  hr{
+    margin-left: 20%;
+  }
+  #achieve{
+    flex-direction: row;
+  }
+  #logo {
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 40px;
+    width: 40px;
+  }
 }

@@ -1,125 +1,160 @@
-body{
-    background-color: #F8C9DD;
-   
-       margin-left: 30% ;
-       margin-right: 30%;
-       font-size: x-large;
+body {
+  background-color: #f8c9dd;
+  margin-left: 9%;
+  margin-right: 5%;
+  font-size: x-large;
 }
 
+#navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 10%;
+  font-size: large;
+}
+#nav {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-left: 20%;
+}
+.link {
+  text-decoration: none;
+  color: #652d91;
+}
+#notepad {
+  height: 300px;
+  width: 300px;
+  margin-top: 18%;
+  border-radius: 20px;
+}
+#title {
+  margin-left: 23%;
+}
+#logo {
+  margin-left: 12%;
+  height: 40px;
+  width: 40px;
+}
+#welcome-details {
+  margin-top: 6%;
+  margin-left: 5%;
+}
+#welcome-page {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 270px;
+}
 
-#navbar{
-    display: flex;
-    flex-direction: row;
-    gap:30px;
-    margin-left: 10%;
-    font-size: large;
-    margin-top: 3%;
+#address {
+  margin-top: 4%;
 }
-#nav{
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
+#socials {
+  margin-top: 8%;
 }
 
-#logo{
-    height: 90px;
-    width: 90px;
-    margin-left: -10%;
-}
-#welcome-page{
-    margin-top: 15%;
-    display: flex;
-    flex-direction: row;
-    gap: 150px;
-}
-
-#footer{
-    margin-top: 15%;
-display:flex;
-flex-direction: row;
-gap: 150px;
+#footer {
+   margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  align-items: center;
+  margin-left: 16%;
+  font-size: 21px;
 }
 
 @media (min-width: 280px) and (max-width: 359px) {
-   body{
-   font-size: smaller;
-   margin-left:2%;
-   
-   }
-    #logo{
-       margin-left: 5%;
-    }
-    #nav{
-        display:block;
-    
-    }
-    #navbar{
-        display:block;
-    }
-    #welcome-page{
-        margin-top: 5%;
-        display: block;
-    }
-    #notepad{
-        height:130px;
-        width: 130px;
-    }
-    #footer{
-        display: block;
-    }
+  body {
+    font-size: smaller;
+    margin-left: 2%;
+  }
+  #title {
+    display: block;
+  }
+  #logo {
+    margin-left: 5%;
+  }
+  #nav {
+    display: block;
+
+  }
+  #navbar {
+    margin-left: -2%;
+    display: block;
+  }
+  #welcome-page {
+    margin-top: 5%;
+    display: block;
+  }
+  #notepad {
+    height: 130px;
+    width: 130px;
+  }
+  #footer {
+    display: block;
+    gap: 0;
+  }
 }
 @media (min-width: 360px) and (max-width: 374px) {
-    #nav{
-        display:block;
-    
-    }
-    #logo{
-        margin-left: 5%;
-     }
-    body{
-        margin-left:2%;
-        font-size: smaller;
-        
-        }
-    #navbar{
-        display:block;
-    }
-    #welcome-page{
-        margin-top: 5%;
-        display: block;
-    }
-    #notepad{
-        height:130px;
-        width: 130px;
-    }
-    #footer{
-        display: block;
-    }
+  #nav {
+    display: block;
+  }
+  #logo {
+    margin-left: 5%;
+  }
+  body {
+    margin-left: 2%;
+    font-size: smaller;
+  }
+  #title {
+    display: block;
+  }
+  #navbar {
+    margin-left: -2%;
+    display: block;
+  }
+  #welcome-page {
+    margin-top: 5%;
+    display: block;
+  }
+  #notepad {
+    height: 130px;
+    width: 130px;
+  }
+  #footer {
+    display: block;
+    gap: 0;
+  }
 }
 @media (min-width: 375px) and (max-width: 435px) {
-    #nav{
-        display:block;
-    
-    }
-    #logo{
-        margin-left: 8%;
-     }
-    body{
-        font-size: smaller;
-     margin-left:5%;
-        }
-    #navbar{
-        display:block;
-    }
-    #welcome-page{
-        margin-top: 5%;
-        display: block;
-    }
-    #notepad{
-        height:130px;
-        width: 130px;
-    }
-    #footer{
-        display: block;
-    }
+  #nav {
+    display: block;
+  }
+  #logo {
+    margin-left: 8%;
+  }
+  body {
+    font-size: smaller;
+    margin-left: 5%;
+  }
+  #title {
+    display: block;
+  }
+  #navbar {
+    margin-left: -2%;
+    display: block;
+  }
+  #welcome-page {
+    margin-top: 5%;
+    display: block;
+  }
+  #notepad {
+    height: 130px;
+    width: 130px;
+  }
+  #footer {
+    display: block;
+    gap: 0;
+  }
 }

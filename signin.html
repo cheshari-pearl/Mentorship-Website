@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="signin.css">
-</head>
-<body>
-    
-<img src="Images/ampLogo.png" id="logo" src="web logo">
-  
-<form id="signin-form">
-    <label>Username:</label>
-    <input type="text" class="input" placeholder="enter username" required/>
-    <br>
-    <br>
-    <label>Password:</label>
-    <input type="text" class="input"  placeholder="enter password" required/>
-    <br>
-    <br>
-    <button id="login-button"><a class="l-button" href="welcome.html"> Login</a></button>
-</form>
-<br>
-<br>
-<p id="signup-text">Don't have an account?  <a href="signup.html">Sign Up</a></p>
+    <link rel="stylesheet" href="signin.css" />
+  </head>
+  <body>
+    <img src="Images/ampLogo.png" id="logo" src="web logo" />
 
-
-
-</body>
+    <form id="signup-form" action="welcome.html">
+      <label for="username">Username:</label>
+      <input name="username" type="text" class="input" placeholder="enter username" required />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input name="password" type="password" class="input" placeholder="enter password" required />
+      <br />
+      <br />
+      <input type="submit" class="l-button">
+     
+    </form>
+    <br />
+    <br />
+    <p id="signup-text">
+      Don't have an account? <a class="link" href="signup.html">Sign Up</a>
+    </p>
+  </body>
 </html>

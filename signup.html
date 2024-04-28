@@ -11,32 +11,33 @@
     <img src="Images/ampLogo.png" id="logo" src="web logo">
     
 
-        <form id="signup-form">
-            <label>Name:</label>
-            <input type="text" class="input" placeholder="Enter your full name" required/>
+        <form id="signup-form" action="signin.html">
+            <label for="name">Name:</label>
+            <input name="name" type="text" class="input" placeholder="Enter your full name" required/>
             <br>
             <br>
-            <label>Email:</label>
-            <input type="email"  class="input" placeholder="cheshari@gmail.com" required/>
+            <label for="email">Email:</label>
+            <input name="email" type="email"  class="input" placeholder="cheshari@gmail.com" required/>
             <br>
             <br>
-            <label>Username:</label>
-            <input type="text" class="input" placeholder="pick username" required/>
+            <label for="username" class="label">Username:</label>
+            <input name="username" type="text" class="input" placeholder="pick username" required/>
             <br>
             <br>
-            <label>Password:</label>
-            <input type="text" class="input" placeholder="not less than 8 characters" required/>
+            <label for="password" class="label">Password:</label>
+            <input name="password" type="password" class="input" placeholder="not less than 8 characters" required/>
             <br>
             <br>
-            <label>Student ID:</label>
-            <input type="text" class="input" required/>
+            <label for="studentID" class="label">Student ID:</label>
+            <input name="studentID" type="text" class="input" required/>
             <br>
             <br>
-            <button id="signup-button" ><a class="s-button" href="signin.html">Sign Up</a></button>
+            <input type="submit" class="s-button">
+         
         </form>
         <br>
     
-        <p id="signin-text">Already have an account? <a href="signin.html">Sign In</a>
+        <p id="signin-text">Already have an account? <a class="link" href="signin.html">Sign In</a>
    
 
 

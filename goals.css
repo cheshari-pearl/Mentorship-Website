@@ -1,28 +1,61 @@
 
 body{
     background-color: #F8C9DD;
-       margin-left: 30% ;
-       margin-right: 30%;
-       font-size: x-large;
+       margin-left: 20% ;
+       font-size: xx-large;
 }
-
-
-#navbar{
+.link {
+    text-decoration: none;
+    color: #652D91;
+  }
+  #navbar {
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
-    gap:40px;
-    /* margin-left: 40%; */
+    gap: 30px;
+    margin-left: 7%;
     font-size: large;
+  }
+  #nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    margin-left: 5%;
+  }
+.input{
+    margin-top: 3%;
+    height: 60px; 
+    width: 500px;
+    border-radius: 30px;
+    border: solid 1px;
+    text-align: center;
 }
+.goals-button{
+    height: 60px; 
+    width: 100px;
+    border-radius: 30px;
+    background-color: #652D91;
+    color: white;
+    border: none;
 
-#logo{
-    margin-top:10%;
-    height: 200px;
-    width: 200px;
+}
+#goals-title{
+    margin-left: 23% ;
+}
+#goals{
     margin-left: 10%;
 }
 
+#logo{
+   
+    height:40px;
+    width: 40px;
+}
+
 @media (min-width: 280px) and (max-width: 359px) {
+    body{
+        margin-left: 3%;
+    }
     #navbar{
         display:block;
     }
@@ -32,10 +65,19 @@ body{
             width: 150px;
             margin-left: 8%;
         }
+        .input{
+            margin-top: 3%;
+            height: 50px; 
+            width: 300px;
+        }
+    }
     
-}
+
 @media (min-width: 360px) and (max-width: 374px) {
-    #navbar{
+    body{
+        margin-left: 3%;
+    }
+     #navbar{
         display:block;
     }
     #logo{
@@ -43,16 +85,30 @@ body{
         height: 150px;
         width: 150px;
         margin-left: 8%;
+    }
+    .input{
+        margin-top: 3%;
+        height: 50px; 
+        width: 300px;
     }
 }
+
 @media (min-width: 375px) and (max-width: 435px) {
+    body{
+        margin-left: 3%;
+    }
     #navbar{
         display:block;
     }
     #logo{
         margin-top: 4%;
-        height: 150px;
-        width: 150px;
+        height: 40px;
+        width: 40px;
         margin-left: 8%;
+    }
+    .input{
+        margin-top: 1%;
+        height: 50px; 
+        width: 300px;
     }
 }

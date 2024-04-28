@@ -5,20 +5,56 @@
   font-size: x-large;
 }
 
-#navbar {
+  #navbar {
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    /* margin-left: 40%; */
+    gap: 30px;
+    margin-left: 7%;
     font-size: large;
   }
+  #nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin-left: -9%;
+  }
+  #todo-title{
+    margin-left: 10% ;
+  }
+  .link {
+    text-decoration: none;
+    color: #652D91;
+  }
+  #link{
+    color: antiquewhite;
+    text-decoration: none;
+  }
+.to-do{
+  margin-left: 2%
+}
+.input{
+  margin-top: 6%;
+  height: 60px; 
+  width: 500px;
+  border-radius: 30px;
+  border: solid 1px;
+  text-align: center;
+  margin-left: -6%;
+}
+#todo-button{
+  height: 60px; 
+  width: 100px;
+  border-radius: 30px;
+  background-color: #652D91;
+  color: white;
+  border: none;
+}
 
   #logo {
-    margin-top: 4%;
-    height: 200px;
-    width: 200px;
-    margin-left: 6%;
-    margin-top: 14%;
+    margin-left: -12%;
+    height: 40px;
+    width: 40px;
   }
   .checkbox{
     height:16px;
@@ -43,8 +79,21 @@
   } 
   #navbar{
         display:block;
-        gap: 1;
 
+    }
+    #logo {
+      margin-top: 4%;
+      margin-left: 2%;
+      height: 40px;
+      width: 40px;
+    }
+    #nav{
+      display: block;
+    }
+    .input{
+      margin-top: 6%;
+      height: 40px; 
+      width: 300px;
     }
     #todo-input {
         
@@ -55,23 +104,30 @@
         height: 20px;
         text-align: center;
     }
-    #logo {
-        margin-top: 10%;
-        height: 150px;
-        width: 150px;
-        margin-left: 4%;
-        
-      }
-}
+  }
+
 @media (min-width: 360px) and (max-width: 374px) {
   body{
     margin-left: 5%;
     font-size: small;
   } 
   #navbar{
-        display:block;
-        gap:1;
+      display:block;
       
+    }
+    #logo {
+      margin-top: 4%;
+      margin-left: 2%;
+      height: 40px;
+      width: 40px;
+    }
+    #nav{
+      display: block;
+    }
+    .input{
+      margin-top: 6%;
+      height: 40px; 
+      width: 300px;
     }
     #todo-input {
         
@@ -82,13 +138,7 @@
         height: 20px;
         text-align: center;
     }
-    #logo {
-        margin-top:10%;
-        height: 150px;
-        width: 150px;
-        margin-left: 4%;
-        
-      }
+    
 }
 
 @media (min-width: 375px) and (max-width: 435px) {
@@ -97,10 +147,16 @@
     font-size: small;
   } 
   #navbar{
-      
-        display:block;
-        gap: 1;
-        
+    display:block;        
+    }
+    #nav{
+      display: block;
+    }
+    #logo {
+      margin-top: 4%;
+      margin-left: 2%;
+      height: 40px;
+      width: 40px;
     }
     #todo-input {
     
@@ -111,12 +167,11 @@
         height: 20px;
         text-align: center;
     }
-    #logo {
-        margin-top: 10%;
-        height: 150px;
-        width: 150px;
-        margin-left: 5%;
-        
-      }
+    .input{
+      margin-top: 6%;
+      height: 40px; 
+      width: 300px;
+    }
+   
 }
 

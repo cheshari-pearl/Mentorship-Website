@@ -8,49 +8,50 @@
 </head>
 
 <body>
-      <div id="navbar">
-    <a href="welcome.html">Home</a>
-    <a href="profile.html">Mentor's Profile</a>
-    <a href="achievements.html">Achievements</a>
-    <a href="goals.html">Goals</a>
-    <a href="to-do.html">To-do</a>
-    <a href="index.html">About</a>
+  <div id="nav"> 
+    <div>
+    <img id="logo" src="Images/ampLogo.png" alt="web logo" />
     </div>
-
+      <div id="navbar">
+    <a class="link" href="welcome.html">Home</a>
+    <a class="link" href="profile.html">Mentor's Profile</a>
+    <a class="link" href="achievements.html">Achievements</a>
+    <a class="link" href="goals.html">Goals</a>
+    <a class="link" href="to-do.html">To-do</a>
+    <a class="link" href="index.html">About</a>
+    </div>
+</div>
      
-    <h1>To-Do List</h1>
+    <h1 id="todo-title">To-Do List</h1>
     <br>
     <form >
       <div class="inputs">
+     
       <div>
-       
-        <button><a href="https://docs.google.com/document/d/1Btzc_ISatbsiGGIjT_TfD-7L6lQK75tObTE-9ClNaSs/edit">&#10003;</a></button>
-        <label >Finish working on datasets</label>
-      
-        <br><br><br>
-      </div>
-      <div>
-        <button><a href="NYJ.html">&#10003;</a></button>
-          <label>Summary of Born A Crime</label>
-          <br><br><br>
+        <span>&#10003; <input class="input" type="text"  name="summary" placeholder="Born A Crime Summary"><button id="todo-button" type="submit"><a id="link" href="NYJ.html">View</button></a></span><br>
+        <span>&#10003; <input class="input" type="text"  placeholder="What do you want to do?"></span><br>
+        <span>&#10003; <input class="input" type="text"  placeholder="What do you want to do?"></span><br>
+        
+          
+          <!-- <br><br><br>
         </div>
         <div>
             <button>&#10003;</button>
-             <label>Finish Kotlin  Assignment</label>
+             <label class="to-do">Finish Kotlin  Assignment</label>
          <br><br><br>
         </div>
         <div>
           <button>&#10003;</button>
-          <label>Read on datasets</label>
+          <label class="to-do">Read on datasets</label>
           <br><br><br>
         </div>
         <div>
           <button>&#10003;</button>
           <br><br><br>
-        </div>
+        </div> -->
        
 
-        <img src="Images/ampLogo.png" id="logo" alt="web logo">
+     
    
 </body>
 </html>

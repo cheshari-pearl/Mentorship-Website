@@ -1,46 +1,101 @@
 body {
   background-color: #f8c9dd;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: x-large;
 }
 
 #logoo {
-  padding-left: 50px;
+  padding-left: 42%;
+  height:250px;
+  width: 250px;
 }
 
-#mentor-name {
+#quote {
   text-align: center;
+}
+#quote1 {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: #652d91;
+}
+#about-us {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  margin-left: 12%;
+}
+#aboutus-image {
+  height: 300px;
+  width: 400px;
+  border-radius: 30px;
 }
 
 @media (min-width: 280px) and (max-width: 359px) {
   body {
     font-size: small;
+    margin-right: 1%;
+    margin-left: -5%;
   }
   #logoo {
     height: 140px;
     width: 140px;
-    margin-left: -50%;
+  }
+  #about-us {
+    display: block;
+  }
+  #aboutus-image {
+    height: 180px;
+    width: 280px;
+  }
+  #quote1 {
+    font-size: x-small;
+    margin-left: 6%;
   }
 }
 
 @media (min-width: 360px) and (max-width: 374px) {
   body {
     font-size: small;
+    margin-left: -5%;
   }
   #logoo {
     height: 140px;
     width: 140px;
-    margin-left: -50%;
+  }
+  #about-us {
+    display: block;
+  }
+  #aboutus-image {
+    height: 180px;
+    width: 280px;
+  }
+  #quote1 {
+    margin-left:6;
+    font-size: x-small;
   }
 }
 @media (min-width: 375px) and (max-width: 435px) {
   body {
     font-size: small;
+    margin-left: -5%;
   }
   #logoo {
     height: 140px;
     width: 140px;
-    margin-left: -50%;
+  }
+  #about-us {
+    display: block;
+  }
+  #aboutus-image {
+    height: 180px;
+    width: 280px;
+  }
+  #quote1 {
+    
+    font-size: x-small;
+    margin-left: 6%;
   }
 }

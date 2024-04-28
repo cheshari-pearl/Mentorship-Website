@@ -1,68 +1,94 @@
-body{
-    background-color: #F8C9DD;
-    margin-left: 35% ;
-    
-    font-size: x-large;
+body {
+  background-color: #f8c9dd;
+  margin-left: 20%;
+
+  font-size: x-large;
 }
 
-
-#navbar{
-    margin-top: 3%;
-    display: flex;
-    flex-direction: row;
-    gap:20px;
-    /* margin-left: -3%; */
-    font-size: large;
+#title {
+  margin-top: 3%;
+  margin-left: 22%;
 }
- #mentor-image{
-    margin-top: 5%;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    margin-left: 8%;
- }
+#navbar {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 7%;
+  font-size: large;
+}
+#nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  margin-left: 5%;
+}
+.link {
+  text-decoration: none;
+  color: #652d91;
+}
+#mentor-details {
+  margin-left: 7%;
+  margin-top: 3%;
+}
+#mentor-image {
+  margin-top: 2%;
+  border-radius: 50%;
+  height: 270px;
+  width: 270px;
+  margin-left: 22%;
+}
 
- #logo{
-    margin-top: 5%;
-    height: 200px;
-    width: 200px;
-    margin-left: 10%;
+#logo {
+  margin-top: 3%;
+  height: 40px;
+  width: 40px;
+  margin-left: 28%;
 }
 
 @media (min-width: 280px) and (max-width: 359px) {
-    body{
-        margin-left:7%;
-    }
-    #navbar{
-        display:block;
-        
-    }
-    #mentor-image{
-        margin-left: 15%;
-    }
+  body {
+    margin-left: -3%;
+    font-size: large;
+  }
+  #navbar {
+    display: block;
+  }
+  .mentor-img {
+    height: 200px;
+    width: 150px;
+
+    display: block;
+  }
 }
 @media (min-width: 360px) and (max-width: 374px) {
-    body{
-        margin-left:7%;
-    }
-    #navbar{
-        display:block;
-      
-    }
-    #mentor-image{
-        margin-left: 15%;
-    }
+  body {
+    margin-left: -3%;
+    font-size: large;
+  }
+  #navbar {
+    display: block;
+  }
+  .mentor-img {
+    height: 200px;
+    width: 150px;
+   
+    display: block;
+  }
 }
 @media (min-width: 375px) and (max-width: 435px) {
-    body{
-        margin-left:7%;
-    }
-    
-#navbar{
-    display:block;
-    
+  body {
+    margin-left: -3%;
+    font-size: large;
+  }
+
+  #navbar {
+    display: block;
+  }
 }
-}
-#mentor-image{
-    margin-left: 15%;
+.mentor-img {
+  height: 200px;
+  width: 150px;
+
+  display: block;
 }
